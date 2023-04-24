@@ -1,0 +1,52 @@
+/****************************** <layout>  *******************************/
+.sm-grid-col-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5rem;
+    gap: 1rem;
+    row-gap: 1.6rem;
+    
+    }
+    
+    
+    @media screen and (min-width: 800px) {
+    
+    .md-grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+    }
+    
+    .md-grid-col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+    }
+    
+    .md-grid-col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+    }
+    
+    }
+  
+  
+    @media screen and (min-width: 960px) {
+    
+        .lg-grid-col-2 {
+        grid-template-columns: 1fr 1fr;
+        }
+        
+        .lg-grid-col-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        .lg-grid-col-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        }
+    
+/****************************** </layout>  *******************************/

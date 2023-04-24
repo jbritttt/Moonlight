@@ -1,0 +1,120 @@
+/****************************** <layout>  *******************************/
+.sm-grid-col-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5rem;
+  gap: 1rem;
+  row-gap: 1.6rem;
+}
+
+@media screen and (min-width: 800px) {
+  .md-grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+  }
+  .md-grid-col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+  }
+  .md-grid-col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    row-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .lg-grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .lg-grid-col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lg-grid-col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/****************************** </layout>  *******************************/
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*    {
+
+         background-image: url("../images/moonlight_crm.jpg");
+         width:100%;
+         height:100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin:auto;
+
+
+    }  */
+h3,
+figure {
+  margin: 0;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+.header-top img {
+  width: 150px;
+  height: auto;
+}
+.header-top nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.header-top nav li {
+  padding: 0.6rem;
+}
+
+.portfolio {
+  background-color: #e5e8ea;
+  margin-top: 300px;
+}
+.portfolio .crm-offset {
+  margin-top: -300px;
+}
+.portfolio figure img {
+  width: 100%;
+  height: auto;
+}
+.portfolio header .h2-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio header .h3-wrapper {
+  display: flex;
+}
+.portfolio header .h3-wrapper h3 {
+  padding-right: 0.6rem;
+}
+.portfolio header img {
+  width: 20px;
+  height: 20px;
+}
+
+.news figure img {
+  width: 100%;
+  height: auto;
+}
