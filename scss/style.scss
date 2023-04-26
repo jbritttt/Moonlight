@@ -8,7 +8,6 @@
 
 body {
   margin: 0;
- 
 }
 
 //Hide these items on mobile
@@ -28,6 +27,7 @@ section {
 .hero {
   margin: 0;
   padding: 0;
+  margin-top: 1.5rem;
   h1 {
     margin: 0;
     font-family: "Lora", serif;
@@ -46,21 +46,14 @@ section.portfolio:after {
   height: 15px;
   width: 90%;
   border-bottom: 1px solid #b6b6b6;
-  
- 
- 
 }
-
 
 .portfolio {
   background-color: #e5e8ea;
   margin-top: 260px;
- 
-position:relative;
-  
 
-  
- 
+  position: relative;
+
   .container-offset {
     margin-top: -300px;
   }
@@ -84,9 +77,9 @@ position:relative;
 
       h2 {
         font-family: "Lora", serif;
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 1rem;
-        margin-bottom:.5rem;
+        margin-bottom: 0.5rem;
         font-weight: 500;
         color: #34373a;
       }
@@ -103,14 +96,13 @@ position:relative;
         padding: 0;
         padding-right: 0.6rem;
         font-family: "Roboto", sans-serif;
-        font-size: 18px;
+        font-size: 14px;
         color: #696f70;
         font-weight: 500;
       }
     }
   }
 }
-
 
 section.services:after {
   content: "";
@@ -120,16 +112,12 @@ section.services:after {
   height: 15px;
   width: 90%;
   border-bottom: 1px solid #b6b6b6;
-  
- 
- 
 }
-
 
 .services {
   background-color: #e5e8ea;
-  position:relative;
- 
+  position: relative;
+
   .services-h2 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -154,9 +142,7 @@ section.services:after {
     line-height: 24px;
     margin-bottom: 0;
   }
-
 }
-
 
 section.people:after {
   content: "";
@@ -166,15 +152,12 @@ section.people:after {
   height: 15px;
   width: 90%;
   border-bottom: 1px solid #b6b6b6;
-  
- 
- 
 }
 
 .people {
   background-color: #e5e8ea;
- 
-  position:relative;
+
+  position: relative;
 
   div {
     background-color: #ffffff;
@@ -270,6 +253,11 @@ section.people:after {
     text-decoration: none;
   }
 
+  .grid-item {
+    border-bottom: 1px solid #b6b6b6;
+    padding-bottom: 1rem;
+  }
+
   figure {
     height: 180px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -298,7 +286,7 @@ section.people:after {
 
 @media screen and (min-width: 765px) {
   .hero {
-    margin-top:3rem;
+    margin-top: 3rem;
     h1 {
       font-size: 32px;
       line-height: 48px;
@@ -307,7 +295,22 @@ section.people:after {
 
   .portfolio {
     margin-top: 300px;
-    padding-bottom:4rem;
+    padding-bottom: 4rem;
+
+    article {
+      .h2-wrapper {
+        h2 {
+          font-size: 30px;
+        }
+      }
+
+      .h3-wrapper {
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+
     .crm-background-img {
       background-image: url("../images/moonlight_crm.webp");
       width: 100%;
@@ -336,24 +339,23 @@ section.people:after {
   }
 
   .services {
- padding-top:6rem;
- padding-bottom:4rem;
-    }
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
 
-    .people{
-      padding-top: 7rem;
-      padding-bottom: 7rem;
-    }
+  .people {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
 
-    .process{
-      padding-top:4rem;
-      padding-bottom:4rem
-    }
-
+  .process {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero {
-    margin-top:5rem;
+    margin-top: 5rem;
     h1 {
       font-size: 40px;
       line-height: 60px;
@@ -416,7 +418,6 @@ section.people:after {
 
   .process {
     background-color: #e5e8ea;
-   
 
     h2 {
       max-width: 1000px;
