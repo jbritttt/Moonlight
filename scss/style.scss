@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+ 
 }
 
 //Hide these items on mobile
@@ -244,6 +245,7 @@ section {
 
 @media screen and (min-width: 765px) {
   .hero {
+    margin-top:3rem;
     h1 {
       font-size: 32px;
       line-height: 48px;
@@ -281,6 +283,7 @@ section {
 }
 @media screen and (min-width: 1024px) {
   .hero {
+    margin-top:5rem;
     h1 {
       font-size: 40px;
       line-height: 60px;
