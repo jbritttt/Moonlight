@@ -371,6 +371,7 @@ footer {
 }
 footer .footer-inner-wrap {
   width: 92%;
+  max-width: 1000px;
   margin: auto;
 }
 footer .footer-inner-wrap ul {
