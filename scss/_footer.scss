@@ -1,79 +1,89 @@
 footer {
-  background-color: #515456;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  .footer-inner-wrap {
-    width: 92%;
-    margin: auto;
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-
-      li {
-        overflow-wrap: break-word;
-        font-family: "Lora", serif;
-        font-size: 20px;
-        font-weight: 400;
-        color: #e5e8ea;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-      }
-    }
-
-    .text-roboto {
-      font-family: "Roboto";
-      font-size: 18px;
-      font-weight: 700;
-      color: #e5e8ea;
-    }
-
-    .social-media {
-      display: flex;
-      flex-wrap: wrap;
-
-      li {
-        margin-right: 0.6rem;
-        font-family: "Lora";
-        font-size: 16px;
-        font-weight: 400;
-        background-image: linear-gradient(#9fa8ad,#9fa8ad);
-        
-      }
-
-      a {
-        color: #9fa8ad;
-      }
-    }
-    .copyright-wrap {
-      display: flex;
-      flex-direction: column;
-
-      span {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-      }
-      .copyright {
-        font-family: "Lora", serif;
-        font-size: 16px;
-        font-weight: 400;
-        background-image: linear-gradient(#a3acb3,#a3acb3);
-       
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 765px) {
-  footer {
+    background-color: #515456;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     .footer-inner-wrap {
+      width: 92%;
+      margin: auto;
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          overflow-wrap: break-word;
+          font-family: "Lora", serif;
+          font-size: 20px;
+          font-weight: 400;
+          color: #e5e8ea;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+      }
+  
+      .text-roboto {
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 700;
+        color: #e5e8ea;
+      }
+  
+      .social-media {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          margin-right: 0.6rem;
+          font-family: "Lora";
+          font-size: 16px;
+          font-weight: 400;
+          color: #9fa8ad;
+        }
+  
+        a {
+          color: #9fa8ad;
+        }
+      }
       .copyright-wrap {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+  
+        span {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+        .copyright {
+          font-family: "Lora", serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #a3acb3;
+        }
       }
     }
   }
+
+
+  
+  
+@media screen and (min-width: 765px) {
+
+    footer {
+      
+        .footer-inner-wrap {
+        
+      
+          
+          .copyright-wrap {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+      
+          
+           
+          }
+        }
+      }
 }
-@media screen and (min-width: 1024px) {
-}
+  @media screen and (min-width: 1024px) {
+ 
+  }
