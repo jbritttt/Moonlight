@@ -1,69 +1,66 @@
-
-
-
-.header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:4.5% 5% 1.5% 5%;
-  position:relative;
-
- 
-
-  .logo {
-    font-size: 18px;
-    color: #34373a;
-    font-family: "Lora", serif;
-    font-weight: 700;
-    text-decoration: none;
-    
-  }
-
-  nav {
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style-type: none;
-      margin:0
-    }
-
-    li {
-      padding: 0.6rem;
-      font-family: 'Lora', serif;
-      font-size:16px;
-      font-weight:500;
-      color:#34373a
-    }
-
-
-  }
-}
-
-@media screen and (min-width: 765px) {
+.header-wrap {
   .header-top {
-    max-width: 1000px;
-    margin: auto;
-    :before {
-        content: "";
-        position: absolute;
-        left: auto;
-        bottom: 0;
-        height: 15px;
-        width: 100%;
-        border-bottom: 1px solid #e6e6e6;
-       
-      }
-    .logo {
-      font-size: 22px;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5% 5% 1.5% 5%;
 
-    div {
-      display: none;
+    .logo {
+      font-size: 18px;
+      color: #34373a;
+      font-family: "Lora", serif;
+      font-weight: 700;
+      text-decoration: none;
     }
 
     nav {
-      display: flex;
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+      }
+
+      li {
+        padding: 0.6rem;
+        font-family: "Lora", serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #34373a;
+      }
+    }
+  }
+}
+@media screen and (min-width: 765px) {
+  .header-wrap {
+    position: relative;
+    overflow: hidden;
+    :before {
+      content: "";
+      position: absolute;
+      left: auto;
+      bottom: 0;
+      height: 15px;
+      left: auto;
+      width: 1000px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .header-top {
+      max-width: 1000px;
+      margin: auto;
+
+      .logo {
+        font-size: 22px;
+      }
+
+      div {
+        display: none;
+      }
+
+      nav {
+        display: flex;
+      }
     }
   }
 }
