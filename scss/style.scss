@@ -38,9 +38,29 @@ section {
   }
 }
 
+section.portfolio:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+  
+ 
+ 
+}
+
+
 .portfolio {
   background-color: #e5e8ea;
   margin-top: 260px;
+ 
+position:relative;
+  
+
+  
+ 
   .container-offset {
     margin-top: -300px;
   }
@@ -64,8 +84,9 @@ section {
 
       h2 {
         font-family: "Lora", serif;
-        font-size: 24px;
+        font-size: 30px;
         margin-top: 1rem;
+        margin-bottom:.5rem;
         font-weight: 500;
         color: #34373a;
       }
@@ -82,7 +103,7 @@ section {
         padding: 0;
         padding-right: 0.6rem;
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 18px;
         color: #696f70;
         font-weight: 500;
       }
@@ -90,8 +111,25 @@ section {
   }
 }
 
+
+section.services:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+  
+ 
+ 
+}
+
+
 .services {
   background-color: #e5e8ea;
+  position:relative;
+ 
   .services-h2 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -116,12 +154,27 @@ section {
     line-height: 24px;
     margin-bottom: 0;
   }
+
+}
+
+
+section.people:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+  
+ 
+ 
 }
 
 .people {
   background-color: #e5e8ea;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+ 
+  position:relative;
 
   div {
     background-color: #ffffff;
@@ -254,6 +307,7 @@ section {
 
   .portfolio {
     margin-top: 300px;
+    padding-bottom:4rem;
     .crm-background-img {
       background-image: url("../images/moonlight_crm.webp");
       width: 100%;
@@ -280,6 +334,22 @@ section {
       display: none;
     }
   }
+
+  .services {
+ padding-top:6rem;
+ padding-bottom:4rem;
+    }
+
+    .people{
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+
+    .process{
+      padding-top:4rem;
+      padding-bottom:4rem
+    }
+
 }
 @media screen and (min-width: 1024px) {
   .hero {
@@ -346,8 +416,7 @@ section {
 
   .process {
     background-color: #e5e8ea;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+   
 
     h2 {
       max-width: 1000px;

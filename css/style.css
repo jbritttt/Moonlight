@@ -46,9 +46,22 @@
   }
 }
 /****************************** </layout>  *******************************/
+div.slider:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+}
+
 .slider {
   background-color: #e5e8ea;
   padding: 1rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
 }
 
 .slider h2 {
@@ -204,9 +217,20 @@ section {
   line-height: 35px;
 }
 
+section.portfolio:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+}
+
 .portfolio {
   background-color: #e5e8ea;
   margin-top: 260px;
+  position: relative;
 }
 .portfolio .container-offset {
   margin-top: -300px;
@@ -225,8 +249,9 @@ section {
 }
 .portfolio header .h2-wrapper h2 {
   font-family: "Lora", serif;
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: 500;
   color: #34373a;
 }
@@ -241,13 +266,24 @@ section {
   padding: 0;
   padding-right: 0.6rem;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   color: #696f70;
   font-weight: 500;
 }
 
+section.services:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+}
+
 .services {
   background-color: #e5e8ea;
+  position: relative;
 }
 .services .services-h2 {
   font-family: "Roboto", sans-serif;
@@ -272,10 +308,19 @@ section {
   margin-bottom: 0;
 }
 
+section.people:after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  height: 15px;
+  width: 90%;
+  border-bottom: 1px solid #b6b6b6;
+}
+
 .people {
   background-color: #e5e8ea;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  position: relative;
 }
 .people div {
   background-color: #ffffff;
@@ -453,6 +498,7 @@ footer .footer-inner-wrap .copyright-wrap .copyright {
   }
   .portfolio {
     margin-top: 300px;
+    padding-bottom: 4rem;
   }
   .portfolio .crm-background-img {
     background-image: url("../images/moonlight_crm.webp");
@@ -475,6 +521,18 @@ footer .footer-inner-wrap .copyright-wrap .copyright {
   }
   .portfolio .young-img {
     display: none;
+  }
+  .services {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
+  .people {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .process {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -523,8 +581,6 @@ footer .footer-inner-wrap .copyright-wrap .copyright {
   }
   .process {
     background-color: #e5e8ea;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
   .process h2 {
     max-width: 1000px;
