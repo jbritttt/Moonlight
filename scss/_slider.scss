@@ -1,0 +1,85 @@
+.slider {
+  background-color: #e5e8ea;
+  padding: 1rem;
+}
+
+.slider h2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+
+  color: #34373a;
+}
+
+.slider span {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-image: linear-gradient(#696f70, #696f70);
+}
+
+.slide {
+  font-family: "Lora";
+  background-image: linear-gradient(#515456, #515456);
+
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #e5e8ea;
+}
+
+.dot-wrapper {
+  right: 1rem;
+  bottom: 2rem;
+}
+
+.uk-light .uk-dotnav > .uk-active > * {
+  background-color: #34373a;
+  color: transparent;
+}
+
+.uk-light .uk-dotnav > * > * {
+  background-color: #bababb;
+  color: transparent;
+  border-radius: 0;
+  border: none;
+  width: 40px;
+  height: 4px;
+}
+
+.uk-light .uk-dotnav > * > *:hover {
+  background-color: grey;
+  color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 765px) {
+}
+@media screen and (min-width: 1024px) {
+  .slider {
+    h2 {
+      max-width: 1000px;
+      margin: auto;
+    }
+  }
+
+  .uk-slideshow-items {
+    display: flex;
+    justify-content: left;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .slide {
+    line-height: 60px;
+    font-size: 40px;
+  }
+
+  .slider h2 {
+    font-size: 24px;
+  }
+
+  .slider span {
+    font-size: 24px;
+  }
+}

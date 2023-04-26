@@ -1,0 +1,48 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  .logo {
+    font-size: 18px;
+    color: #34373a;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      margin:0
+    }
+
+    li {
+      padding: 0.6rem;
+    }
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .header-top {
+    max-width: 1000px;
+    margin: auto;
+    .logo {
+      font-size: 22px;
+    }
+
+    div {
+      display: none;
+    }
+
+    nav {
+      display: flex;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+}
