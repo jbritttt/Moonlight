@@ -5,6 +5,7 @@ Clone of a website called designed by moonlight https://designedbymoonlight.co.u
 
 ## The Goal
 - To practise using SCSS
+- To write as little SCSS/CSS as possible
 
 ## Technologies
 
